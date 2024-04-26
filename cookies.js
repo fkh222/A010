@@ -23,7 +23,7 @@ function getCookie(cname) {
 function checkCookie() {
     let user = getCookie("username");
     if (user != "") {
-      alert("Welcome again " + user);
+      alert("Hello again " + user+"!");
     } else {
       user = prompt("Please enter your name:", "");
       if (user != "" && user != null) {
